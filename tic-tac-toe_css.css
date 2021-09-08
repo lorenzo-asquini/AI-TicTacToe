@@ -1,0 +1,9 @@
+#myCanvas{
+    background: white;
+    display: block;
+    position: absolute;
+}
+
+body {
+    margin:10;
+}

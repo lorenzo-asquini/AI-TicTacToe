@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Lorenzo Asquini">
+    <script src = "tic-tac-toe_js.js"></script>
+    <link rel="stylesheet" href="tic-tac-toe_css.css" />
+
+</head>
+
+<body>
+
+    <p style = "font-weight: bold;">Who starts: </p>
+
+    <input type="radio" id="random" name="selectPlayer" checked="checked">
+        <label for="random">Random</label>
+
+    <input type="radio" id="you" name="selectPlayer">
+        <label for="you">You</label>
+
+    <input type="radio" id="CPU" name="selectPlayer">
+        <label for="CPU">CPU</label>
+
+    <button onclick = "Start()">GO/RESET!</button></p>
+
+    <p id = "starterWinner" style = "font-weight: bold;"></p>
+
+    <canvas id="myCanvas"></canvas>
+
+</body>
+
+</html>
