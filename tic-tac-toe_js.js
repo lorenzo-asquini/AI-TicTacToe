@@ -293,7 +293,7 @@ function blockPlayerWin(){  //CPU blocks human win
     }
 }
 
-function intelCPUmoves(){  //intellingent CPU moves
+function intelCPUmoves(){  //intelligent CPU moves
 
     var s = 'O';
     var rand = Math.floor(Math.random()*2);
@@ -460,6 +460,7 @@ function movesCPU(){  //moves of the CPU
             return true;
         }
     }
+    return false;
 }
 
 function winner(symbol){   //if someone won
