@@ -47,7 +47,7 @@ function Start(){
     //start game
     isFirstMoveCPU = true;
     stop = false;
-    setInterval(function(){game(ctx)}, 10); //New frame every 10ms
+    setInterval(function(){game(ctx)}, 10); //new frame every 10ms
 }
 
 function whoStarts(){
