@@ -25,7 +25,7 @@ This project allows you to play against an AI in a game of tic-tac-toe using onl
 
 
 ## Usage
-Open the .html file with you browser of choice and have fun playing against the AI
+Open [tic-tac-toe.html](tic-tac-toe.html) file with you browser of choice and have fun playing against the AI
 
 
 ## Project Status
