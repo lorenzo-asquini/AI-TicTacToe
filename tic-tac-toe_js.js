@@ -1,8 +1,8 @@
-var sWidth = window.innerWidth;
-var sHeight = window.innerHeight;
+const sWidth = window.innerWidth;
+const sHeight = window.innerHeight;
 
-var cSide = Math.min(0.8*sWidth, 0.8*sHeight);  //side of the canvas
-var lineDistance = Math.round(cSide/3); //distance between lines
+const cSide = Math.min(0.8*sWidth, 0.8*sHeight);  //side of the canvas
+const lineDistance = Math.round(cSide/3); //distance between lines
 
 var canvasBounding;
 
