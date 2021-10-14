@@ -1,8 +1,5 @@
-const sWidth = window.innerWidth;
-const sHeight = window.innerHeight;
-
-const cSide = Math.min(0.8*sWidth, 0.8*sHeight);  //side of the canvas
-const lineDistance = Math.round(cSide/3); //distance between lines
+var cSide;
+var lineDistance;
 
 var canvasBounding;
 
@@ -19,6 +16,12 @@ var playerTurn;  //true if it is the human turn
 var stop;  //true if someone won
 
 function Start(){
+
+    var sWidth = window.innerWidth;
+    var sHeight = window.innerHeight;
+
+    cSide = Math.min(0.8*sWidth, 0.8*sHeight);  //side of the canvas
+    lineDistance = Math.round(cSide/3); //distance between lines
 
     startsCPU = false;
     playerTurn = false;
@@ -47,7 +50,7 @@ function Start(){
     //start game
     isFirstMoveCPU = true;
     stop = false;
-    setInterval(function(){game(ctx)}, 10); //new frame every 10ms
+    setInterval(function(){game(ctx)}, 10); //New frame every 10ms
 }
 
 function whoStarts(){
@@ -293,7 +296,7 @@ function blockPlayerWin(){  //CPU blocks human win
     }
 }
 
-function intelCPUmoves(){  //intelligent CPU moves
+function intelCPUmoves(){  //intellingent CPU moves
 
     var s = 'O';
     var rand = Math.floor(Math.random()*2);
@@ -460,7 +463,6 @@ function movesCPU(){  //moves of the CPU
             return true;
         }
     }
-    return false;
 }
 
 function winner(symbol){   //if someone won
