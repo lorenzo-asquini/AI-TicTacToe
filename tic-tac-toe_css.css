@@ -1,7 +1,8 @@
 #myCanvas{
     background: white;
     display: block;
-    position: absolute;
+    position: relative;
+    left: calc(calc(100vw - min(80vw, 80vh)) / 2);  /*Dinamically change position to remain at the center*/
 }
 
 body {
