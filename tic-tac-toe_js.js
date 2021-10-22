@@ -38,8 +38,6 @@ function Start(){
     canvas.style.border = "3px solid #000000";
     canvas.width = cSide;
     canvas.height = cSide;
-    var leftSpace = (sWidth-cSide)/2;
-    canvas.style.left = leftSpace.toString()+"px";
     canvasBounding = canvas.getBoundingClientRect();
 
     //register click
