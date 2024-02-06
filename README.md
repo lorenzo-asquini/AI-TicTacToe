@@ -1,5 +1,5 @@
 # AI-TicTacToe
-> Web page to play tic-tac-toe against "AI".
+> Web page to play tic-tac-toe against an "AI".
 
 ## Table of Contents
 * [General Information](#general-information)
